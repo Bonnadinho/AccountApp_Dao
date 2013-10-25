@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!Doctype sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namexmlns="default namespace">
+<typeAlias alias="" type="" ></typeAlias>
+
+<resultMap id="personResults" class="Person">
+	<result property="" column=""/>
+	<result property="" column=""/>
+	<result property="" column=""/>
+</resultMap>
+
+<select id="" resultMap="personResults">
+</select>
+
+<select id="" resultMap="personResults" parameterClass="int">
+</select>
+
+<update id="" resultMap=" " parameterClass="person">
+</update>
+
+<delete id="" resultMap="" parameterClass="person"></delete>
+
+</sqlMap>
